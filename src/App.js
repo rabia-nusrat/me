@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Home from "./sections/Home";
+import NavBar from "./utils/NavBar";
+import About from "./sections/About";
+import Experiences from "./sections/Experiences";
 
 function App() {
+  const [activeSection, setActiveSection] = useState("home");
+
+  const changeActiveSection = (event) => {
+    if (window.scrollY === window.innerHeight * 0) {
+      setActiveSection("home");
+    }
+    if (window.scrollY >= window.innerHeight * 1) {
+      setActiveSection("about");
+    }
+    if (window.scrollY >= window.innerHeight * 2) {
+      setActiveSection("experience");
+    }
+  };
+  window.addEventListener("scroll", changeActiveSection);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar
+        activeSection={activeSection}
+        activeSectionSetter={setActiveSection}
+      ></NavBar>
+      <div className="bg-black w-full h-auto flex flex-col">
+        <Home />
+        <About />
+        <Experiences />
+      </div>
+    </>
   );
 }
 
