@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/me/static/css/main.af1a0aff.css",
+    "main.js": "/me/static/js/main.309d7311.js",
+    "static/js/787.349836d3.chunk.js": "/me/static/js/787.349836d3.chunk.js",
+    "static/media/everywater.svg": "/me/static/media/everywater.f0f85c60f7604365f3fffe936bb96c0e.svg",
+    "index.html": "/me/index.html",
+    "main.af1a0aff.css.map": "/me/static/css/main.af1a0aff.css.map",
+    "main.309d7311.js.map": "/me/static/js/main.309d7311.js.map",
+    "787.349836d3.chunk.js.map": "/me/static/js/787.349836d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af1a0aff.css",
+    "static/js/main.309d7311.js"
+  ]
+}
