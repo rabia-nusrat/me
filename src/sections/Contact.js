@@ -72,14 +72,15 @@ export default function Contact() {
     if (validateData()) {
       emailjs
         .sendForm(
-          "service_u0o4lhn",
-          "template_p5hi9fe",
+          "service_u6vf86r",
+          "template_apkw8kq",
           form.current,
-          "hfUiQboGpNG5aZa_i"
+          "sS5md82_t2P3mMxTv"
         )
         .then(
           (result) => {
             console.log(result.text);
+            setMessageSent("block");
           },
           (error) => {
             console.log(error.text);
@@ -90,7 +91,6 @@ export default function Contact() {
       setCompany("");
       setPhone("");
       setMessage("");
-      setMessageSent("block");
     }
   };
   return (
