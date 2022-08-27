@@ -6,12 +6,12 @@ export default function About() {
   return (
     <Container
       id="about"
-      className="w-full h-screen flex flex-col items-start justify-center  text-white text-left "
+      className="w-full min-h-screen flex flex-col items-start justify-center  text-white text-left "
     >
-      <p className="font-heading font-bold text-6xl">
+      <p className="font-heading font-bold text-5xl ">
         About <GradientText>Me.</GradientText>
       </p>
-      <p className="w-full lg:w-2/3 font-body font-light text-3xl mt-5 text-justify lg:text-left">
+      <p className="w-full lg:w-2/3 font-body font-light text-2xl  mt-5 text-left">
         An Environmental Engineering enthusiast with{" "}
         <GradientText className="font-semibold">
           diverse experience

@@ -55,7 +55,7 @@ export default function NavBar(props) {
             Achievements
           </a>
           <a
-            href="#acheivements"
+            href="#contact"
             className={props.activeSection === "contact" && "font-semibold"}
             onClick={setActiveSect("contact")}
           >

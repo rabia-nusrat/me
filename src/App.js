@@ -4,6 +4,8 @@ import Home from "./sections/Home";
 import NavBar from "./utils/NavBar";
 import About from "./sections/About";
 import Experiences from "./sections/Experiences";
+import Education from "./sections/Education";
+import Contact from "./sections/Contact";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -31,6 +33,8 @@ function App() {
         <Home />
         <About />
         <Experiences />
+        <Education />
+        <Contact />
       </div>
     </>
   );

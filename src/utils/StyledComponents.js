@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const GradientText = styled.p`
+  height: auto;
   display: inline-block;
   background: -webkit-linear-gradient(
     left,
