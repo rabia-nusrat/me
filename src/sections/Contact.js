@@ -1,10 +1,14 @@
-import React, { useReducer, useState } from "react";
+import React, { useReducer, useRef, useState } from "react";
 import Container from "../utils/Container";
 import { GradientText } from "../utils/StyledComponents";
 import { TextField, TextArea } from "../utils/FormComponents";
 import emailjs from "@emailjs/browser";
+import { Alert } from "@material-tailwind/react";
 
 export default function Contact() {
+  const form = useRef();
+  const [messageSent, setMessageSent] = useState("hidden");
+
   const [name, setName] = useState("");
   const setNameHandler = (event) => {
     event.preventDefault();
@@ -70,7 +74,7 @@ export default function Contact() {
         .sendForm(
           "service_u0o4lhn",
           "template_p5hi9fe",
-          event.target,
+          form.current,
           "hfUiQboGpNG5aZa_i"
         )
         .then(
@@ -86,6 +90,7 @@ export default function Contact() {
       setCompany("");
       setPhone("");
       setMessage("");
+      setMessageSent("block");
     }
   };
   return (
@@ -94,13 +99,26 @@ export default function Contact() {
       className="w-full min-h-screen flex flex-col items-start justify-start py-[100px]  text-white text-left "
     >
       <p className="font-heading font-bold text-5xl my-3 lg:mt-24 lg:mb-12">
-        <GradientText>Contact me.</GradientText>
+        <GradientText>Contact me. </GradientText>
       </p>
-      <div className="w-full md:w-auto flex flex-col">
+      <form
+        ref={form}
+        className="w-full md:w-auto flex flex-col"
+        onSubmit={sendEmail}
+      >
+        <Alert
+          className={"my-5 cursor-pointer " + messageSent}
+          onClick={(e) => {
+            setMessageSent("hidden");
+          }}
+        >
+          You message has been sent!
+        </Alert>
         <div className="flex flex-col md:flex-row">
           <TextField
             type="text"
             name="name"
+            id="name"
             className={"md:mr-5 " + nameError}
             placeholder="Name *"
             required={true}
@@ -149,13 +167,10 @@ export default function Contact() {
           onChange={setMessageHandler}
           onBlur={validateData}
         />
-        <button
-          className="w-full md:w-32 h-12  my-5 rounded-full  bg-gradient-to-r from-[#007fed] to-[#00dcda] text-xl font-bold font-heading transition-all"
-          onClick={sendEmail}
-        >
+        <button className="w-full md:w-32 h-12  my-5 rounded-full  bg-gradient-to-r from-[#007fed] to-[#00dcda] text-xl font-bold font-heading transition-all">
           Send
         </button>
-      </div>
+      </form>
     </Container>
   );
 }
