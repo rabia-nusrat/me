@@ -65,26 +65,28 @@ export default function Contact() {
   };
   const sendEmail = (event) => {
     event.preventDefault();
-    emailjs
-      .sendForm(
-        "service_u0o4lhn",
-        "template_p5hi9fe",
-        event.target,
-        "hfUiQboGpNG5aZa_i"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
-    setName("");
-    setEmail("");
-    setCompany("");
-    setPhone("");
-    setMessage("");
+    if (validateData()) {
+      emailjs
+        .sendForm(
+          "service_u0o4lhn",
+          "template_p5hi9fe",
+          event.target,
+          "hfUiQboGpNG5aZa_i"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      setName("");
+      setEmail("");
+      setCompany("");
+      setPhone("");
+      setMessage("");
+    }
   };
   return (
     <Container
