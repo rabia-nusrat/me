@@ -2,7 +2,7 @@ import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import Container from "../utils/Container";
 import { GradientText } from "../utils/StyledComponents";
-import pfp from "../images/pfp.jpg";
+import pfp from "../images/dp.jpg";
 
 export default function Home() {
   return (
