@@ -6,16 +6,16 @@ import pfp from "../images/dp.jpg";
 
 export default function Home() {
   return (
-    <Container
+    <div
       id="home"
-      className="w-full min-h-screen flex flex-col lg:flex-row items-center justify-evenly"
+      className="snap-start w-full min-h-screen flex flex-col lg:flex-row items-center justify-evenly"
     >
       <div className="w-full lg:w-1/2 flex flex-col text-center lg:text-left items-center lg:items-start justify-center">
-        <p className={"text-white text-[50px]  font-heading font-bold"}>
+        <h1 className={"text-white heading-gradient"}>
           Hello! I'm <br />
           <GradientText className="font-extrabold">Rabia Nusrat</GradientText>
-        </p>
-        <p className="text-white text-[30px] font-mono inline-block h-[150px] lg:h-auto">
+        </h1>
+        <p className="text-white text-[25px] font-mono inline-block h-[150px] lg:h-auto">
           I am{" "}
           <TypeAnimation
             sequence={[
@@ -32,7 +32,7 @@ export default function Home() {
             cursor={true}
             repeat={Infinity}
             speed="1"
-            className="text-white text-[30px] inline-block"
+            className="text-white text-[25px] inline-block"
           />
         </p>
       </div>
@@ -43,6 +43,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </Container>
+    </div>
   );
 }

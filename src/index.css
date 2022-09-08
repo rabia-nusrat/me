@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .heading-gradient {
+        @apply text-[40px]  font-heading font-bold;
+    }
+}

@@ -94,16 +94,16 @@ export default function Contact() {
     }
   };
   return (
-    <Container
+    <div
       id="contact"
-      className="w-full min-h-screen flex flex-col items-start justify-start py-[100px]  text-white text-left "
+      className="snap-start w-full min-h-screen flex flex-col items-start justify-start py-[100px]  text-white text-left "
     >
-      <p className="font-heading font-bold text-5xl my-3 lg:mt-24 lg:mb-12">
+      <h1 className="heading-gradient my-3 lg:mt-24 lg:mb-12">
         <GradientText>Contact me. </GradientText>
-      </p>
+      </h1>
       <form
         ref={form}
-        className="w-full md:w-auto flex flex-col"
+        className="w-full lg:w-auto flex flex-col"
         onSubmit={sendEmail}
       >
         <Alert
@@ -114,7 +114,7 @@ export default function Contact() {
         >
           You message has been sent!
         </Alert>
-        <div className="flex flex-col md:flex-row">
+        <div className="w-full flex flex-col lg:flex-row">
           <TextField
             type="text"
             name="name"
@@ -137,7 +137,7 @@ export default function Contact() {
             onBlur={validateData}
           />
         </div>
-        <div className="flex flex-col md:flex-row">
+        <div className="w-full flex flex-col lg:flex-row">
           <TextField
             type="text"
             name="company"
@@ -171,6 +171,6 @@ export default function Contact() {
           Send
         </button>
       </form>
-    </Container>
+    </div>
   );
 }

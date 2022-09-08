@@ -7,14 +7,14 @@ import ImageCard from "../utils/ImageCard";
 
 export default function Education() {
   return (
-    <Container
+    <div
       id="education"
-      className="w-full min-h-screen flex flex-col items-start justify-center  text-white text-left "
+      className="snap-start w-full min-h-screen flex flex-col items-start justify-center  text-white text-left "
     >
-      <p className="font-heading font-bold text-5xl my-3 lg:mt-24 lg:mb-12">
+      <h1 className="heading-gradient my-3 lg:mt-24 lg:mb-12">
         <GradientText>Education and Training.</GradientText>
-      </p>
-      <div className="w-full flex flex-col xl:flex-row ">
+      </h1>
+      <div className="w-full flex flex-col xl:flex-row items-center">
         <ImageCard
           className=""
           image={uetLogo}
@@ -30,6 +30,6 @@ export default function Education() {
           body="Global UGRAD Semester Exchange Program"
         />
       </div>
-    </Container>
+    </div>
   );
 }

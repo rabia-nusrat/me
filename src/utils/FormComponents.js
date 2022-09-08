@@ -7,7 +7,7 @@ export function TextField(props) {
       id={props.id}
       name={props.name}
       value={props.value}
-      className={`form-textarea bg-black w-full md:w-[350px] h-16 text-xl border-2 rounded-xl  mb-5 ${props.className}`}
+      className={`form-textarea bg-black w-full lg:w-[320px] h-16 text-xl border-2 rounded-xl  mb-5 ${props.className}`}
       placeholder={props.placeholder}
       onChange={props.onChange}
       onBlur={props.onBlur}

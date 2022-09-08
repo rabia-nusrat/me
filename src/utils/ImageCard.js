@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ImageCard(props) {
   return (
-    <div className="w-full h-auto border-[1px] rounded-2xl my-5 xl:m-5 flex flex-col md:flex-row justify-start items-center">
+    <div className="w-[330px] lg:w-full h-auto border-[1px] rounded-2xl my-5 xl:m-5 flex flex-col md:flex-row justify-start items-center">
       <div className="w-1/2 md:w-1/3 m-5">
         <img src={props.image} alt="" width={"100%"} />
       </div>

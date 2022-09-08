@@ -17,13 +17,13 @@ export default function Experiences() {
   };
 
   return (
-    <Container
+    <div
       id="experience"
-      className="w-full min-h-screen flex flex-col items-start justify-start  text-white text-left"
+      className="snap-start w-full min-h-screen flex flex-col items-start justify-start  text-white text-left"
     >
-      <p className="font-heading font-bold text-5xl my-3 lg:mt-24 lg:mb-12">
+      <h1 className="heading-gradient my-3 lg:mt-24 lg:mb-12">
         My <GradientText>Work Experience.</GradientText>
-      </p>
+      </h1>
       <div className="w-full lg:w-5/6 bg-black">
         <Accordion
           open={open === 1}
@@ -296,6 +296,6 @@ export default function Experiences() {
           </AccordionBody>
         </Accordion>
       </div>
-    </Container>
+    </div>
   );
 }

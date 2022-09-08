@@ -6,6 +6,7 @@ import About from "./sections/About";
 import Experiences from "./sections/Experiences";
 import Education from "./sections/Education";
 import Contact from "./sections/Contact";
+import Container from "./utils/Container";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -25,16 +26,18 @@ function App() {
 
   return (
     <>
-      <NavBar
+      {/* <NavBar
         activeSection={activeSection}
         activeSectionSetter={setActiveSection}
-      ></NavBar>
-      <div className="bg-black w-full h-auto flex flex-col">
-        <Home />
-        <About />
-        <Experiences />
-        <Education />
-        <Contact />
+      ></NavBar> */}
+      <div className="bg-black w-full flex flex-col">
+        <Container>
+          <Home />
+          <About />
+          <Experiences />
+          <Education />
+          <Contact />
+        </Container>
       </div>
     </>
   );
