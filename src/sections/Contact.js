@@ -99,7 +99,7 @@ export default function Contact() {
       className="snap-start w-full min-h-screen flex flex-col items-start justify-start py-[100px]  text-white text-left "
     >
       <h1 className="heading-gradient my-3 lg:mt-24 lg:mb-12">
-        <GradientText>Contact me. </GradientText>
+        <GradientText>Contact me </GradientText>
       </h1>
       <form
         ref={form}

@@ -12,7 +12,7 @@ export default function Education() {
       className="snap-start w-full min-h-screen flex flex-col items-start justify-center  text-white text-left "
     >
       <h1 className="heading-gradient my-3 lg:mt-24 lg:mb-12">
-        <GradientText>Education and Training.</GradientText>
+        <GradientText>Education and Training</GradientText>
       </h1>
       <div className="w-full flex flex-col xl:flex-row items-center">
         <ImageCard

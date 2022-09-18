@@ -7,6 +7,8 @@ import Experiences from "./sections/Experiences";
 import Education from "./sections/Education";
 import Contact from "./sections/Contact";
 import Container from "./utils/Container";
+import Skills from "./sections/Skills";
+import Achievements from "./sections/Achievements";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -35,7 +37,9 @@ function App() {
           <Home />
           <About />
           <Experiences />
+          <Skills />
           <Education />
+          <Achievements />
           <Contact />
         </Container>
       </div>

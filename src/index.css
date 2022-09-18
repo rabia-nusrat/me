@@ -6,4 +6,17 @@
     .heading-gradient {
         @apply text-[40px]  font-heading font-bold;
     }
+
+    .bg-gradient {
+        @apply bg-gradient-to-r from-[#007fed] to-[#00dcda]
+    }
+    .text-gradient {
+        background: -webkit-linear-gradient(
+            left,
+         rgba(0, 127, 237, 1) 0%,
+            rgba(0, 220, 218, 1) 100%
+     );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    }
 }

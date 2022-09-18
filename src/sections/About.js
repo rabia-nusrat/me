@@ -9,7 +9,7 @@ export default function About() {
       className="snap-start w-full min-h-screen flex flex-col items-start justify-center  text-white text-left "
     >
       <h1 className="heading-gradient ">
-        About <GradientText>Me.</GradientText>
+        About <GradientText>Me</GradientText>
       </h1>
       <div className="w-full lg:w-2/3 font-body font-light text-white text-2xl  mt-5 text-left">
         <p className="inline-block">

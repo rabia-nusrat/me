@@ -127,15 +127,7 @@ export default function Experiences() {
                   - 1st November, 2020 to 1st September, 2021
                 </p>
               </li>
-              <li className="flex items-center text-[22px] my-2">
-                <Bullet />
-                <p>
-                  <span className="font-semibold inline-block">
-                    <pre>Teaching Assitant </pre>
-                  </span>
-                  - 1st August, 2021 to Current
-                </p>
-              </li>
+              
             </ul>
           </AccordionBody>
         </Accordion>

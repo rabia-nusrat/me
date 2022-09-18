@@ -87,7 +87,7 @@ const Sidebar = (props) => {
           </div>
         </a>
       </div>
-      <div className="w-[1px] h-screen bg-gradient-to-l from-[#007fed] to-[#00dcda]"></div>
+      <div className="w-[2px] h-screen bg-gradient-to-b from-[#007fed] to-[#00dcda]"></div>
     </div>
   );
 };

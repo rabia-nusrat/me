@@ -16,17 +16,19 @@ export default function Home() {
           <GradientText className="font-extrabold">Rabia Nusrat</GradientText>
         </h1>
         <p className="text-white text-[25px] font-mono inline-block h-[150px] lg:h-auto">
-          I am{" "}
           <TypeAnimation
             sequence={[
               1000,
-              "an Evironmental Engineer",
+              "Evironmental Engineer",
               1000,
               "",
               1000,
-              `a Tech Enthusiast`,
+              `Tech Enthusiast`,
               1000,
-              "",
+              `Sustainability Specialist`,
+              1000,
+              `Membrane Technology Expert`,
+              1000,
             ]}
             wrapper="div"
             cursor={true}
