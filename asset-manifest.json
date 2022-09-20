@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/me/static/css/main.240b0746.css",
-    "main.js": "/me/static/js/main.0800ec52.js",
+    "main.js": "/me/static/js/main.d7d0bc92.js",
     "static/js/787.349836d3.chunk.js": "/me/static/js/787.349836d3.chunk.js",
     "static/media/uet-logo.png": "/me/static/media/uet-logo.7bb9b551cabb75c4de55.png",
     "static/media/WhatsApp Image 2022-01-09 at 12.04.11 PM.jpeg": "/me/static/media/WhatsApp Image 2022-01-09 at 12.04.11 PM.4fb6e259dd69549a6300.jpeg",
@@ -34,11 +34,11 @@
     "static/media/everywater.svg": "/me/static/media/everywater.f0f85c60f7604365f3fffe936bb96c0e.svg",
     "index.html": "/me/index.html",
     "main.240b0746.css.map": "/me/static/css/main.240b0746.css.map",
-    "main.0800ec52.js.map": "/me/static/js/main.0800ec52.js.map",
+    "main.d7d0bc92.js.map": "/me/static/js/main.d7d0bc92.js.map",
     "787.349836d3.chunk.js.map": "/me/static/js/787.349836d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.240b0746.css",
-    "static/js/main.0800ec52.js"
+    "static/js/main.d7d0bc92.js"
   ]
 }
