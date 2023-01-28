@@ -1,16 +1,9 @@
 import React, { useState } from "react";
-import { Document, Page } from "react-pdf";
+
 import magazine from "../assets/magazine-for-webiste.pdf";
 import { GradientText } from "../utils/StyledComponents";
 
 export default function MyApp() {
-  const [numPages, setNumPages] = useState(1);
-  const [pageNumber, setPageNumber] = useState(1);
-
-  function onDocumentLoadSuccess({ numPages }) {
-    setNumPages(numPages);
-  }
-
   return (
     <div id="magazine" className="snap-start w-full min-h-screen text-white">
       {/* <Document
