@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import everywaterlogo from "../images/everywater.svg";
+import comsatslogo from "../images/exp_logos/comsats copy.png";
+import pakvitaelogo from "../images/exp_logos/pakvitae.png";
 import Container from "../utils/Container";
 import { GradientText } from "../utils/StyledComponents";
 import {
@@ -31,10 +33,11 @@ export default function Experiences() {
           className="bg-black border-b-[1px] border-b-blue-gray-900"
         >
           <AccordionHeader className="text-xl lg:text-2xl font-heading font-semibold text-white text-left hover:text-blue-gray-100 border-b-0">
-            {/* <img src={everywaterlogo} alt="" height="100%" /> */}
+            <img src={everywaterlogo} alt="" className="h-[48px]" />
+            {/* <div className="h-[48px] w-[2px] bg-blue-gray-100 mx-3"></div> */}
             <p>
-              EVERYWATER {"("}PVT{")"} LTD{" "}
-              <span className="font-light"> - Lahore, Pakistan</span>
+              {/* EVERYWATER {"("}PVT{")"} LTD{" "} */}
+              {/* <span className="font-light"> - Lahore, Pakistan</span> */}
             </p>
           </AccordionHeader>
           <AccordionBody className="font-body font-light text-white">
@@ -45,7 +48,7 @@ export default function Experiences() {
                   <span className="font-semibold inline-block">
                     <pre>Senior Research Engineer </pre>
                   </span>
-                  - 1st April, 2022 to Current
+                  {/* - 1st April, 2022 to Current */}
                 </p>
               </li>
               <li className="flex items-center text-[22px] my-2">
@@ -54,7 +57,7 @@ export default function Experiences() {
                   <span className="font-semibold inline-block">
                     <pre>Research Engineer </pre>
                   </span>
-                  - 1st October, 2021 to 1st March, 2022
+                  {/* - 1st October, 2021 to 1st March, 2022 */}
                 </p>
               </li>
               <li className="flex items-center text-[22px] my-2">
@@ -63,7 +66,7 @@ export default function Experiences() {
                   <span className="font-semibold">
                     <pre>Graduate Engineer Trainee </pre>
                   </span>
-                  - 1st August, 2021 to 1st October, 2021
+                  {/* - 1st August, 2021 to 1st October, 2021 */}
                 </p>
               </li>
             </ul>
@@ -75,11 +78,14 @@ export default function Experiences() {
           className="bg-black border-b-[1px] border-b-blue-gray-900"
         >
           <AccordionHeader className="text-xl lg:text-2xl font-heading font-semibold text-white text-left hover:text-blue-gray-100 border-b-0">
-            {/* <img src={everywaterlogo} alt="" height="100%" /> */}
-            <p>
-              COMSATS UNIVERSITY
-              <span className="font-light"> - Lahore, Pakistan</span>
-            </p>
+            <div className="flex flex-row justify-start items-center">
+              <img src={comsatslogo} alt="" className="h-[48px]" />
+              <div className="h-[48px] w-[2px] bg-blue-gray-100 mx-3"></div>
+              <p>
+                COMSATS UNIVERSITY LAHORE
+                {/* <span className="font-light"> - Lahore, Pakistan</span> */}
+              </p>
+            </div>
           </AccordionHeader>
           <AccordionBody className="font-body font-light text-white">
             <ul>
@@ -89,7 +95,7 @@ export default function Experiences() {
                   <span className="font-semibold inline-block">
                     <pre>Research Assistant </pre>
                   </span>
-                  - 1st August, 2021 to Current
+                  {/* - 1st August, 2021 to Current */}
                 </p>
               </li>
               <li className="flex items-center text-[22px] my-2">
@@ -98,7 +104,7 @@ export default function Experiences() {
                   <span className="font-semibold inline-block">
                     <pre>Teaching Assitant </pre>
                   </span>
-                  - 1st August, 2021 to Current
+                  {/* - 1st August, 2021 to Current */}
                 </p>
               </li>
             </ul>
@@ -110,11 +116,14 @@ export default function Experiences() {
           className="bg-black border-b-[1px] border-b-blue-gray-900"
         >
           <AccordionHeader className="text-xl lg:text-2xl font-heading font-semibold text-white text-left hover:text-blue-gray-100 border-b-0">
-            {/* <img src={everywaterlogo} alt="" height="100%" /> */}
-            <p>
-              PAKVITAE
-              <span className="font-light"> - Lahore, Pakistan</span>
-            </p>
+            <div className="flex flex-row justify-start items-end">
+              <img src={pakvitaelogo} alt="" className="h-[48px]" />
+              <div className="h-[48px] w-[2px] bg-blue-gray-100 mx-3"></div>
+              <p>
+                PAKVITAE
+                {/* <span className="font-light"> - Lahore, Pakistan</span> */}
+              </p>
+            </div>
           </AccordionHeader>
           <AccordionBody className="font-body font-light text-white">
             <ul>
@@ -124,10 +133,9 @@ export default function Experiences() {
                   <span className="font-semibold inline-block">
                     <pre>Engineering Intern </pre>
                   </span>
-                  - 1st November, 2020 to 1st September, 2021
+                  {/* - 1st November, 2020 to 1st September, 2021 */}
                 </p>
               </li>
-              
             </ul>
           </AccordionBody>
         </Accordion>

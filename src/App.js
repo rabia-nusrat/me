@@ -10,6 +10,7 @@ import Container from "./utils/Container";
 import Skills from "./sections/Skills";
 import Achievements from "./sections/Achievements";
 import Magazine from "./sections/Magazine";
+import Exp2 from "./sections/Exp2";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -37,7 +38,7 @@ function App() {
         <Container>
           <Home />
           <About />
-          <Experiences />
+          <Exp2 />
           <Skills />
           <Magazine />
           <Education />
