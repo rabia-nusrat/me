@@ -18,7 +18,7 @@ const Exp2 = () => {
       className="snap-start w-full min-h-screen flex flex-col items-start justify-start  text-white text-left"
     >
       <h1 className="heading-gradient my-3 lg:mt-24 lg:mb-12">
-        My <GradientText>Work Experience.</GradientText>
+        <GradientText>Companies </GradientText> I Have Worked With
       </h1>
       <div className="w-full h-auto grid grid-cols-2 lg:grid-cols-3 gap-2">
         <div className="flex flex-col items-center justify-end h-[200px] w-[200px]">
