@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/me/static/css/main.ffd71e25.css",
-    "main.js": "/me/static/js/main.e171f897.js",
+    "main.js": "/me/static/js/main.f2a7051b.js",
     "static/js/787.349836d3.chunk.js": "/me/static/js/787.349836d3.chunk.js",
     "static/media/magazine-for-webiste.pdf": "/me/static/media/magazine-for-webiste.9c2c8ab7f15ce7d2fb44.pdf",
     "static/media/comsats copy.png": "/me/static/media/comsats copy.577978cc844b34c3c64c.png",
@@ -42,11 +42,11 @@
     "static/media/everywater.svg": "/me/static/media/everywater.f0f85c60f7604365f3fffe936bb96c0e.svg",
     "index.html": "/me/index.html",
     "main.ffd71e25.css.map": "/me/static/css/main.ffd71e25.css.map",
-    "main.e171f897.js.map": "/me/static/js/main.e171f897.js.map",
+    "main.f2a7051b.js.map": "/me/static/js/main.f2a7051b.js.map",
     "787.349836d3.chunk.js.map": "/me/static/js/787.349836d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ffd71e25.css",
-    "static/js/main.e171f897.js"
+    "static/js/main.f2a7051b.js"
   ]
 }
