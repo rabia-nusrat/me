@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/me/static/css/main.ca5e3d13.css",
-    "main.js": "/me/static/js/main.989a736a.js",
+    "main.css": "/me/static/css/main.ffd71e25.css",
+    "main.js": "/me/static/js/main.e171f897.js",
     "static/js/787.349836d3.chunk.js": "/me/static/js/787.349836d3.chunk.js",
     "static/media/magazine-for-webiste.pdf": "/me/static/media/magazine-for-webiste.9c2c8ab7f15ce7d2fb44.pdf",
+    "static/media/comsats copy.png": "/me/static/media/comsats copy.577978cc844b34c3c64c.png",
+    "static/media/nestle.png": "/me/static/media/nestle.c882e864dfdc9b8f7ae9.png",
     "static/media/uet-logo.png": "/me/static/media/uet-logo.7bb9b551cabb75c4de55.png",
     "static/media/WhatsApp Image 2022-01-09 at 12.04.11 PM.jpeg": "/me/static/media/WhatsApp Image 2022-01-09 at 12.04.11 PM.4fb6e259dd69549a6300.jpeg",
     "static/media/WhatsApp Image 2022-01-09 at 12.04.10 PM.jpeg": "/me/static/media/WhatsApp Image 2022-01-09 at 12.04.10 PM.4e56724cf87526f3ed50.jpeg",
@@ -21,25 +23,30 @@
     "static/media/1600441072821.jpg": "/me/static/media/1600441072821.44e56e57cd713f5a0beb.jpg",
     "static/media/CC-6.jpg": "/me/static/media/CC-6.61673dc46819d4381e33.jpg",
     "static/media/1601603646190.jpg": "/me/static/media/1601603646190.1bfcacfe5d5ff169a369.jpg",
+    "static/media/wwf.png": "/me/static/media/wwf.90cf5baf31eee6615cb5.png",
     "static/media/Certificate-90.JPG": "/me/static/media/Certificate-90.003ff0e492ce7cc3d3d2.JPG",
     "static/media/ssu-logo.png": "/me/static/media/ssu-logo.e8483c0b5c6751cd48ca.png",
     "static/media/1598953915862.jpg": "/me/static/media/1598953915862.638f7754185f7fde557b.jpg",
+    "static/media/nespak.png": "/me/static/media/nespak.0cf51ec7c01e04aa729e.png",
+    "static/media/pakvitae.png": "/me/static/media/pakvitae.7c81f8fded9ff50fef5b.png",
     "static/media/sustainable.png": "/me/static/media/sustainable.2529eb7b71e35e30b3dc.png",
     "static/media/flat-longevity.png": "/me/static/media/flat-longevity.20f5394a9c5bc04cf836.png",
+    "static/media/spectra.png": "/me/static/media/spectra.74c88cee63573845eefc.png",
     "static/media/hollow-longevity.png": "/me/static/media/hollow-longevity.aa6db25d54bd9a0e347b.png",
     "static/media/water-quality.png": "/me/static/media/water-quality.8c1170bddace7d257e80.png",
     "static/media/microscope.png": "/me/static/media/microscope.2dba91dd54ebb2d61ce8.png",
     "static/media/carbon-footprint.png": "/me/static/media/carbon-footprint.0776900a298f51735250.png",
     "static/media/waste-water.png": "/me/static/media/waste-water.57086b5487567ea3bdf6.png",
     "static/media/water-supply.png": "/me/static/media/water-supply.4c78d65f2d3c49ce18fd.png",
+    "static/media/inspectest.png": "/me/static/media/inspectest.727fc3286051ae104491.png",
     "static/media/everywater.svg": "/me/static/media/everywater.f0f85c60f7604365f3fffe936bb96c0e.svg",
     "index.html": "/me/index.html",
-    "main.ca5e3d13.css.map": "/me/static/css/main.ca5e3d13.css.map",
-    "main.989a736a.js.map": "/me/static/js/main.989a736a.js.map",
+    "main.ffd71e25.css.map": "/me/static/css/main.ffd71e25.css.map",
+    "main.e171f897.js.map": "/me/static/js/main.e171f897.js.map",
     "787.349836d3.chunk.js.map": "/me/static/js/787.349836d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca5e3d13.css",
-    "static/js/main.989a736a.js"
+    "static/css/main.ffd71e25.css",
+    "static/js/main.e171f897.js"
   ]
 }
