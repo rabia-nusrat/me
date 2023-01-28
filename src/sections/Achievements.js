@@ -31,7 +31,7 @@ const Achievements = () => {
     { img: img, desc: "SPECTRA Summer Internship 2020" },
     { img: img2, desc: "STEM Fellow" },
     { img: img3, desc: "A&WMA Event" },
-    { img: img4, desc: "SHayad Sohail Interview" },
+    { img: img4, desc: "Shayan Sohail Interview" },
     { img: img5, desc: "Laila Kasuri Interview" },
     { img: img6, desc: "Professor Marc Edwards Interview" },
     { img: img9, desc: "Nestle Internship" },

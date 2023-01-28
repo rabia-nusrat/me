@@ -9,6 +9,7 @@ import Contact from "./sections/Contact";
 import Container from "./utils/Container";
 import Skills from "./sections/Skills";
 import Achievements from "./sections/Achievements";
+import Magazine from "./sections/Magazine";
 
 function App() {
   const [activeSection, setActiveSection] = useState("home");
@@ -38,6 +39,7 @@ function App() {
           <About />
           <Experiences />
           <Skills />
+          <Magazine />
           <Education />
           <Achievements />
           <Contact />

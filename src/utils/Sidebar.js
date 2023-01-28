@@ -57,6 +57,16 @@ const Sidebar = (props) => {
           </div>
         </a>
         <a
+          href="#magazine"
+          className={props.activeSection === "magazine" && "font-semibold"}
+          onClick={setActiveSect("magazine")}
+        >
+          <div className="flex flex-row items-center">
+            <IconFlask className="mr-2" />
+            <p>Magazine</p>
+          </div>
+        </a>
+        <a
           href="#education"
           className={props.activeSection === "education" && "font-semibold"}
           onClick={setActiveSect("education")}

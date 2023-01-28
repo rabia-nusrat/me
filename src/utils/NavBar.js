@@ -39,6 +39,13 @@ export default function NavBar(props) {
             Skills
           </a>
           <a
+            href="#magazine"
+            className={props.activeSection === "magazine" && "font-semibold"}
+            onClick={setActiveSect("magazine")}
+          >
+            Magazine
+          </a>
+          <a
             href="#education"
             className={props.activeSection === "education" && "font-semibold"}
             onClick={setActiveSect("education")}

@@ -19,7 +19,7 @@ export default function Home() {
           <TypeAnimation
             sequence={[
               1000,
-              "Evironmental Engineer",
+              "Environmental Engineer",
               1000,
               "",
               1000,
